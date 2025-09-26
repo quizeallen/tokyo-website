@@ -1,6 +1,5 @@
 body {
     background: radial-gradient(circle, red, black);
-    font-family: 'Times New Roman', Times, serif;
 }
 header {
     background-color: black;
@@ -18,7 +17,7 @@ article {
     top: 15px;
     border-radius: 10px;
     padding: 10px;
-    font-family: arial;
+    font-family: 'Times New Roman', Times, serif;
 }
 footer {
     background-color: violet;
@@ -42,7 +41,7 @@ a {
     position: relative;
     border: 1px solid black;
     padding: 5px;
-    font-family: arial;
+    font-family: 'Times New Roman', Times, serif;
 }
 nav {
     margin: auto;
