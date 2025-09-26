@@ -1,0 +1,129 @@
+body {
+    background: radial-gradient(circle, red, black);
+}
+header {
+    background-color: black;
+    color: red;
+    line-height: 50px;
+    text-align: center;
+}
+article {
+    background: linear-gradient(rgb(177, 1, 177),rgba(255, 255, 255, 0.778));
+    color: black;
+    clear: both;
+    margin: auto;
+    width: auto;
+    position: relative;
+    top: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: arial;
+}
+footer {
+    background-color: violet;
+    color: white;
+    clear: both;
+    position: relative;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    background-color: navy;
+    border-radius: 10px;
+    width: 100px;
+    float: left;
+    position: relative;
+    border: 1px solid black;
+    padding: 5px;
+    font-family: arial;
+}
+nav {
+    margin: auto;
+    width: fit-content;
+    position: relative;
+    left: 25px;
+}
+a:hover {
+    background: radial-gradient(ellipse, goldenrod, black);
+}
+img {
+    width: 375px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    height: 225px;
+    clear: both;
+}
+a:visited {
+    background-color: red !important;
+}
+.link-active {
+    background: linear-gradient(red, black);
+}
+h1 {
+    text-align: center;
+}
+.indent {
+    margin-right: -10px;
+}
+.clear-left {
+    clear: left;
+}
+.clear-right {
+    clear: right;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+table {
+    margin-bottom: 15px;
+}
+.smaller-img {
+    width: 50%;
+    height: 0%;
+}
+.img {
+    width: 200px;
+    height: 125px;
+}
+div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+ul, ol {
+    line-height: 1.5;
+}
+figcaption {
+    visibility: hidden;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 8.5px;
+    border-bottom-right-radius: 8.5px;
+    width: 369px;
+    text-align: center;
+    overflow: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    color: white;
+    padding: 5px;
+}
+figure:hover figcaption {
+    visibility: visible !important;
+}
+figure {
+    position: relative;
+    display: block;
+    width: auto;
+}
