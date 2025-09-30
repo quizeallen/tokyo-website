@@ -21,7 +21,7 @@ article {
 }
 footer {
     background-color: violet;
-    color: white;
+    color: rgb(0, 0, 0);
     clear: both;
     position: relative;
     text-align: center;
@@ -30,7 +30,7 @@ footer {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     display: block;
     line-height: 30px;
     text-align: center;
@@ -39,17 +39,19 @@ a {
     width: 100px;
     float: left;
     position: relative;
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 5px;
     font-family: 'Times New Roman', Times, serif;
 }
-nav {
+aside {
     margin: auto;
     width: fit-content;
-    position: relative;
-    left: 25px;
+    position: sticky;
+    visibility: visible;
+    z-index: 1;
+    top: 20px;
 }
-a:hover {
+a:hover, button:hover {
     background: radial-gradient(ellipse, goldenrod, black);
 }
 img {
@@ -126,4 +128,20 @@ figure {
     position: relative;
     display: block;
     width: auto;
+}
+button {
+    display: block;
+    position: sticky;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: red;
+    z-index: 1;
+    clear: both;
+    visibility: hidden;
 }
