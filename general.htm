@@ -6,6 +6,84 @@
         <title>Marquize Allen</title>
         <link rel="stylesheet" href="project1style.css">
         <script src="project1.js" defer></script>
+        <style>
+            @media (max-width: 600px) {
+                article {
+                    grid-template-columns: 1fr;
+                    grid-template-areas:
+                        "header"
+                        "image"
+                        "p"
+                        "p2"
+                        "header2"
+                        "image2"
+                        "p3"
+                        "p4"
+                        "p5"
+                        "header3"
+                        "image3"
+                        "p6"
+                        "p7"
+                        "p8";
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+
+            @media (min-width: 600px) and (max-width: 899px) {
+                article {
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas: "header header"
+                        "p image"
+                        "p2 p2"
+                        "header2 header2"
+                        "image2 p3"
+                        "p4 p4"
+                        "p5 p5"
+                        "header3 header3"
+                        "p6 image3"
+                        "p7 p7"
+                        "p8 p8";
+                }
+            }
+
+            @media (min-width: 900px) and (max-width: 1025px) {
+                article {
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas: "header header"
+                        "p image"
+                        "p2 image"
+                        "header2 header2"
+                        "image2 p3"
+                        "image2 p4"
+                        "image2 p5"
+                        "header3 header3"
+                        "p6 image3"
+                        "p7 image3"
+                        "p8 image3";
+                }
+            }
+
+            @media (min-width:1026px) {
+                article {
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas: "header header"
+                        "p image"
+                        "p2 image"
+                        "header2 header2"
+                        "image2 p3"
+                        "image2 p4"
+                        "image2 p5"
+                        "header3 header3"
+                        "p6 image3"
+                        "p7 image3"
+                        "p8 image3";
+                }
+            }
+        </style>
+
     </head>
 
     <body>
@@ -22,101 +100,101 @@
                 <a href="index.htm">
                     Home
                 </a>
-                <a href="general.htm" style="right: 10px; bottom: 5px;" class="link-active">
+                <a href="general.htm" class="link-active">
                     General Info
                 </a>
-                <a href="society.htm" style="right: 20px;">
+                <a href="society.htm">
                     Society
                 </a>
-                <a href="life.htm" style="right: 30px; bottom: 5px;">
+                <a href="life.htm">
                     Life
                 </a>
-                <a href="visiting.htm" style="right: 40px;">
+                <a href="visiting.htm">
                     Visiting
                 </a>
-                <a href="fun-fact.htm" style="right: 50px; bottom: 5px;">
+                <a href="fun-fact.htm">
                     Fun Facts
                 </a>
             </nav>
         </aside>
         <article>
-            <h1>
+            <h1 class="header">
                 Tokyo: A City of Distinct Seasons and Dynamic Governance
             </h1>
-            <figure>
-                <img src="cherry blossom.jpg" style="float: right;">
-                <figcaption style="right: 10px; top: 171px;">
+            <figure class="image">
+                <img src="cherry blossom.jpg">
+                <figcaption>
                     A harmonious blend of nature and urban life, where cherry blossoms bloom and boats glide on the
                     serene river.
                 </figcaption>
             </figure>
-            <p>
+            <p class="p">
                 Tokyo, the heart of Japan, is a city that experiences a wide range of weather conditions, contributing
                 to its distinct four seasons. The winters are generally mild, with temperatures rarely dropping below
                 freezing, while the summers can be quite hot and humid. Spring and autumn are particularly pleasant,
                 marked by the beautiful cherry blossoms and the vibrant red maple leaves, respectively. Currently, Tokyo
                 enjoys clear skies with temperatures around 44 degrees Fahrenheit, promising comfortable days ahead.
             </p>
-            <p>
+            <p class="p2">
                 The Tokyo Metropolitan Government, located in the bustling ward of Shinjuku, is the epicenter of the
                 city’s administration. Governed by the elected Governor of Tokyo, Yuriko Koike, the government wields
                 significant influence within Japan due to the city’s substantial population and economic power. The
                 governor’s role is crucial, overseeing policies that affect not only the metropolis but also having a
                 broader impact on national affairs.
             </p>
-            <h1 style="clear: both;">
+            <h1 class="header2">
                 The Evolution of Tokyo: From Edo to the Modern Metropolis
             </h1>
-            <figure>
-                <img src="th.jpg" style="float: left;">
-                <figcaption style="top: 153px; left: 10px;">
+            <figure class="image2">
+                <img src="th.jpg">
+                <figcaption>
                     A moment of tranquility: The traditional temple and pagoda, standing tall against the dramatic
                     sunset sky, embody the harmonious blend of cultural heritage and natural beauty.
                 </figcaption>
             </figure>
-            <p>
+            <p class="p3">
                 Tokyo’s history is as rich and varied as its culture. Archaeological remains suggest that the area now
                 known as Tokyo has been inhabited for around 5,000 years. The city, originally named Edo, began to
                 flourish as a significant political center when Tokugawa Ieyasu established his shogunate there in the
                 early 17th century. Edo grew rapidly, becoming one of the world’s most populous cities by the mid-18th
                 century.
             </p>
-            <p>
+            <p class="p4">
                 The transformation from Edo to Tokyo occurred in the Meiji Restoration of 1868, which marked the end of
                 the shogunate and the restoration of imperial rule. This period saw Tokyo modernize and expand,
                 eventually emerging as a global economic powerhouse. The city has faced numerous challenges, including
                 natural disasters like the Great Kanto earthquake and man-made destruction during World War II, but it
                 has always shown remarkable resilience and an ability to rebuild and innovate.
             </p>
-            <p>
+            <p class="p5">
                 Tokyo’s history is not just a chronicle of events; it’s a narrative of a city’s unyielding spirit and
                 enduring legacy. It’s a story that continues to unfold, as Tokyo remains a city that captivates the
                 imagination and inspires the world.
             </p>
 
-            <h1>
+            <h1 class="header3">
                 The Emblem of Tokyo: Unfolding the History of the Metropolis’ Flag
             </h1>
-            <figure>
-                <img src="tokyos flag.jpg" style="float: right;">
-                <figcaption style="right: 10px; top: 171px;">
+            <figure class="image3">
+                <img src="tokyos flag.jpg">
+                <figcaption>
                     Symbol of Unity: The emblem of Tokyo, a white symbol on a solid purple backdrop, represents the
                     harmonious blend of tradition and modernity in the heart of Japan.
                 </figcaption>
             </figure>
-            <p>
+            <p class="p6">
                 The flag of the Tokyo Metropolis was adopted on October 1, 1964, and features a white Metropolitan Crest
                 on center against an Edo purple background, which was popular during the Edo period, the historical name
                 of Tokyo. The design symbolizes Tokyo’s tradition and modernity, reflecting the city’s historical
                 significance and its continuous growth and development.
             </p>
-            <p>
+            <p class="p7">
                 The Tokyo Metropolitan Symbol, a stylized kanji character of “Tokyo-Nihon,” represents the city’s
                 development as the capital of Japan. This symbol is set against a vivid green color, symbolizing Tokyo’s
                 future growth and prosperity. The flag was officially adopted on September 30, 1989, under the
                 Metropolitan Announcement No. 978.
             </p>
-            <p>
+            <p class="p8">
                 The flag’s design is a testament to Tokyo’s rich history and its evolution from a small fishing village
                 to a global city. The Edo purple signifies the city’s past, while the green Metropolitan Symbol points
                 towards a future of progress and innovation. Together, they encapsulate the essence of Tokyo, a city

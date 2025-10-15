@@ -6,6 +6,74 @@
         <title>Marquize Allen</title>
         <link rel="stylesheet" href="project1style.css">
         <script src="project1.js" defer></script>
+        <style>
+            @media (max-width: 600px) {
+                article {
+                    grid-template-columns: 1fr;
+                    grid-template-areas:
+                        "header"
+                        "image"
+                        "p"
+                        "p2"
+                        "p3"
+                        "p4"
+                        "p5"
+                        "p6"
+                        "p7"
+                        "p8";
+                }
+        
+                p {
+                    text-align: center;
+                }
+            }
+        
+            @media (min-width: 600px) and (max-width: 899px) {
+                article {
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas: "header header"
+                        "image p"
+                        "p2 p2"
+                        "p3 p3"
+                        "p4 p4"
+                        "p5 p5"
+                        "p6 p6"
+                        "p7 p7"
+                        "p8 p8";
+                }
+            }
+        
+            @media (min-width: 900px) and (max-width: 1025px) {
+                article {
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas: "header header"
+                        "image p"
+                        "image p2"
+                        "p3 p3"
+                        "p4 p4"
+                        "p5 p5"
+                        "p6 p6"
+                        "p7 p7"
+                        "p8 p8";
+                }
+            }
+        
+            @media (min-width:1026px) {
+                article {
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas: "header header"
+                        "image p"
+                        "image p2"
+                        "image p3"
+                        "image p4"
+                        "p5 p5"
+                        "p6 p6"
+                        "p7 p7"
+                        "p8 p8";
+                }
+            }
+        </style>
+
     </head>
 
     <body>
@@ -22,89 +90,67 @@
                 <a href="index.htm">
                     Home
                 </a>
-                <a href="general.htm" style="right: 10px; bottom: 5px;">
+                <a href="general.htm">
                     General Info
                 </a>
-                <a href="society.htm" style="right: 20px;" class="link-active">
+                <a href="society.htm" class="link-active">
                     Society
                 </a>
-                <a href="life.htm" style="right: 30px; bottom: 5px;">
+                <a href="life.htm">
                     Life
                 </a>
-                <a href="visiting.htm" style="right: 40px;">
+                <a href="visiting.htm">
                     Visiting
                 </a>
-                <a href="fun-fact.htm" style="right: 50px; bottom: 5px;">
+                <a href="fun-fact.htm">
                     Fun Facts
                 </a>
             </nav>
         </aside>
         <article>
-            <h1>
+            <h1 class="header">
                 Tokyo’s Society
             </h1>
-            <figure>
-                <img src="society.jpg" style="float: left;">
-                <figcaption style="left: 10px; top: 191px;">
+            <figure class="image">
+                <img src="society.jpg">
+                <figcaption>
                     Tokyo After Dark: A vibrant night scene on a rainy street, where the city’s energy is as bright as
                     the neon lights.
                 </figcaption>
             </figure>
-            <p>
+            <p class="p">
                 <strong>
                     Government:
                 </strong>
-                Tokyo, the bustling capital of Japan, operates under a metropolitan government system, which is akin to
-                both a city and a prefectural government. This unique structure allows Tokyo to manage its intricate
-                needs effectively, from urban planning to disaster management. The Tokyo Metropolitan Government, led by
-                the Governor of Tokyo, oversees various wards, each functioning semi-autonomously, ensuring local
-                governance is attuned to the community’s needs.
+                Tokyo, the bustling capital of Japan, operates under a metropolitan government system, which is akin to both a city and a prefectural government. This unique structure allows Tokyo to manage its intricate needs effectively, from urban planning to disaster management. The Tokyo Metropolitan Government, led by the Governor of Tokyo, oversees various wards, each functioning semi-autonomously, ensuring local governance is attuned to the community’s needs.
             </p>
-            <p>
+            <p class="p2">
                 <strong>
                     Economy:
                 </strong>
-                Tokyo’s economy is a powerhouse, not just within Japan but on a global scale. With a gross prefectural
-                domestic product of around 115.7 trillion Japanese yen as of 2019, it accounts for approximately 21
-                percent of Japan’s total GDP. The city’s economic vigor is fueled by diverse sectors, including
-                wholesale and retail trade, real estate, and technology. As a hub of financial institutions, Tokyo
-                boasts a robust and disciplined financial ecosystem, attracting domestic and international businesses
-                alike.
+                Tokyo’s economy is a powerhouse, not just within Japan but on a global scale. With a gross prefectural domestic product of around 115.7 trillion Japanese yen as of 2019, it accounts for approximately 21percent of Japan’s total GDP. The city’s economic vigor is fueled by diverse sectors, including wholesale and retail trade, real estate, and technology. As a hub of financial institutions, Tokyo boasts a robust and disciplined financial ecosystem, attracting domestic and international businesses alike.
             </p>
-            <p>
+            <p class="p3">
                 <strong>
                     Currency and Exchange Rate:
                 </strong>
-                The Japanese Yen (JPY) is the currency of Tokyo, reflecting the nation’s economic stability. As of the
-                latest data, 1 JPY is equivalent to approximately 0.0066 USD, showcasing Japan’s position in the global
-                exchange market. The exchange rate plays a crucial role in Tokyo’s international trade and investment,
-                influencing the cost of living and tourism.
+                The Japanese Yen (JPY) is the currency of Tokyo, reflecting the nation’s economic stability. As of the latest data, 1 JPY is equivalent to approximately 0.0066 USD, showcasing Japan’s position in the global exchange market. The exchange rate plays a crucial role in Tokyo’s international trade and investment, influencing the cost of living and tourism.
             </p>
-            <p>
+            <p class="p4">
                 <strong>
                     Transportation:
                 </strong>
-                Tokyo’s transportation system is renowned for its efficiency and comprehensiveness. It encompasses a
-                vast network of public and private rail lines, highways, buses, and two major airports. The heart of
-                this system is the extensive network of trains and subways operated by entities like JR East, Tokyo
-                Metro, and Toei Subway. These services are punctual, clean, and safe, making them the preferred choice
-                for daily commuting and tourism.
+                Tokyo’s transportation system is renowned for its efficiency and comprehensiveness. It encompasses a vast network of public and private rail lines, highways, buses, and two major airports. The heart of this system is the extensive network of trains and subways operated by entities like JR East, Tokyo Metro, and Toei Subway. These services are punctual, clean, and safe, making them the preferred choice for daily commuting and tourism.
             </p>
-            <p>
+            <p class="p5">
                 <strong>
                     Health Care:
                 </strong>
                 Health care in Tokyo is characterized by high standards and accessibility. Japan’s public health
-                insurance system ensures that every resident receives care, with reasonable fees and a high standard of
-                service. Tokyo hosts a multitude of hospitals and clinics, ranging from large university-affiliated
-                hospitals to local clinics, catering to various medical needs. Emergency services are well-established,
-                and numerous facilities offer multilingual support to accommodate non-Japanese speakers.
+                insurance system ensures that every resident receives care, with reasonable fees and a high standard of service. Tokyo hosts a multitude of hospitals and clinics, ranging from large university-affiliated hospitals to local clinics, catering to various medical needs. Emergency services are well-established, and numerous facilities offer multilingual support to accommodate non-Japanese speakers.
             </p>
-            <p>
-                In conclusion, Tokyo’s society is a testament to Japan’s ability to harmonize tradition with modernity.
-                Its government structure, economic might, stable currency, efficient transportation, and comprehensive
-                health care system all contribute to the city’s status as a global metropolis, offering a high quality
-                of life for its residents and a dynamic environment for visitors.
+            <p class="p6">
+                In conclusion, Tokyo’s society is a testament to Japan’s ability to harmonize tradition with modernity. Its government structure, economic might, stable currency, efficient transportation, and comprehensive health care system all contribute to the city’s status as a global metropolis, offering a high quality of life for its residents and a dynamic environment for visitors.
             </p>
         </article>
         <footer>

@@ -6,6 +6,89 @@
         <title>Marquize Allen</title>
         <link rel="stylesheet" href="project1style.css">
         <script src="project1.js" defer></script>
+        <style>
+            @media (max-width: 600px) {
+                article {
+                    grid-template-columns: 1fr;
+                    grid-template-areas: "header"
+                        "header2"
+                        "p"
+                        "p2"
+                        "header3"
+                        "p3"
+                        "p4"
+                        "header4"
+                        "p5"
+                        "p6"
+                        "header5"
+                        "p7"
+                        "p8"
+                        "table";
+                }
+
+                p, article {
+                    text-align: center;
+                }
+            }
+
+            @media (min-width: 600px) and (max-width: 899px) {
+                article {
+                    grid-template-areas: "header"
+                        "header2"
+                        "p"
+                        "p2"
+                        "header3"
+                        "p3"
+                        "p4"
+                        "header4"
+                        "p5"
+                        "p6"
+                        "header5"
+                        "p7"
+                        "p8"
+                        "table";
+                }
+            }
+
+            @media (min-width: 900px) and (max-width: 1025px) {
+                article {
+                    grid-template-areas: "header"
+                        "header2"
+                        "p"
+                        "p2"
+                        "header3"
+                        "p3"
+                        "p4"
+                        "header4"
+                        "p5"
+                        "p6"
+                        "header5"
+                        "p7"
+                        "p8"
+                        "table";
+                }
+            }
+
+            @media (min-width:1026px) {
+                article {
+                    grid-template-areas: "header"
+                        "header2"
+                        "p"
+                        "p2"
+                        "header3"
+                        "p3"
+                        "p4"
+                        "header4"
+                        "p5"
+                        "p6"
+                        "header5"
+                        "p7"
+                        "p8"
+                        "table";
+                }
+            }
+        </style>
+
     </head>
 
     <body>
@@ -22,34 +105,34 @@
                 <a href="index.htm">
                     Home
                 </a>
-                <a href="general.htm" style="right: 10px; bottom: 5px;">
+                <a href="general.htm">
                     General Info
                 </a>
-                <a href="society.htm" style="right: 20px;">
+                <a href="society.htm">
                     Society
                 </a>
-                <a href="life.htm" style="right: 30px; bottom: 5px;">
+                <a href="life.htm">
                     Life
                 </a>
-                <a href="visiting.htm" style="right: 40px;" class="link-active">
+                <a href="visiting.htm" class="link-active">
                     Visiting
                 </a>
-                <a href="fun-fact.htm" style="right: 50px; bottom: 5px;">
+                <a href="fun-fact.htm">
                     Fun Facts
                 </a>
             </nav>
         </aside>
         <article>
-            <h1>
+            <h1 class="header">
                 Visiting Tokyo
             </h1>
-            <h2>
+            <h2 class="header2">
                 Visa Requirements
             </h2>
-            <p>
+            <p class="p">
                 Before embarking on your Tokyo adventure, ensure you meet the visa requirements:
             </p>
-            <ul>
+            <ul class="p2">
                 <li>
                     <strong>
                         Valid Passport:
@@ -87,14 +170,14 @@
                     Have enough funds to cover your stay.
                 </li>
             </ul>
-            <h2>
+            <h2 class="header3">
                 Where to Stay
             </h2>
-            <p>
+            <p class="p3">
                 Tokyo offers a wide range of accommodation options to suit every budget and preference. Here are some
                 popular areas to consider:
             </p>
-            <ol>
+            <ul class="p4">
                 <li>
                     <strong>
                         Shinjuku:
@@ -135,14 +218,14 @@
                     </strong>
                     Home to the historic Sensō-ji Temple, Asakusa offers traditional ryokans and a glimpse of old Tokyo.
                 </li>
-            </ol>
-            <h2>
+            </ul>
+            <h2 class="header4">
                 Getting Around
             </h2>
-            <p>
+            <p class="p5">
                 Tokyo’s efficient public transportation system makes exploring the city a breeze:
             </p>
-            <ul>
+            <ul class="p6">
                 <li>
                     <strong>
                         Trains and Subways:
@@ -168,13 +251,13 @@
                     Combine sightseeing with your commute on Tokyo’s water buses.
                 </li>
             </ul>
-            <h2>
+            <h2 class="header5">
                 Estimated Costs
             </h2>
-            <p>
+            <p class="p7">
                 Budgeting for Tokyo depends on your preferences, but here’s a rough estimate:
             </p>
-            <ul>
+            <ul class="p8">
                 <li>
                     <strong>
                         Accommodation:
@@ -206,7 +289,7 @@
                     $4,000 to $5,500 for two people.
                 </li>
             </ul>
-            <table>
+            <table class="table">
                 <tr>
                     <th colspan="3">
                         Top Attractions

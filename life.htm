@@ -6,6 +6,83 @@
         <title>Marquize Allen</title>
         <link rel="stylesheet" href="project1style.css">
         <script src="project1.js" defer></script>
+        <style>
+            @media (max-width: 600px) {
+                article {
+                    text-align: center;
+                    grid-template-columns: 1fr;
+                    grid-template-areas: "header"
+                        "header2"
+                        "image"
+                        "p"
+                        "header3"
+                        "image2"
+                        "p2"
+                        "header4"
+                        "image3"
+                        "p3"
+                        "header5"
+                        "image4"
+                        "p4"
+                        "header6"
+                        "image5"
+                        "p5"
+                        "header7"
+                        "image6"
+                        "p6"
+                        "p7";
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+
+            @media (min-width: 600px) and (max-width: 899px) {
+                article {
+                    text-align: center;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-areas: "header  header header"
+                        "header2 image p"
+                        "header3 p2 image2"
+                        "header4 image3 p3"
+                        "header5 p4 image4"
+                        "header6 image5 p5"
+                        "header7 p6 image6"
+                        "p7 p7 p7"
+                }
+            }
+
+            @media (min-width: 900px) and (max-width: 1025px) {
+                article {
+                    text-align: center;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-areas: "header  header header"
+                        "header2 image p"
+                        "header3 p2 image2"
+                        "header4 image3 p3"
+                        "header5 p4 image4"
+                        "header6 image5 p5"
+                        "header7 p6 image6"
+                        "p7 p7 p7"
+                }
+            }
+
+            @media (min-width:1026px) {
+                article {
+                    text-align: center;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-areas: "header  header header"
+                        "header2 image p"
+                        "header3 p2 image2"
+                        "header4 image3 p3"
+                        "header5 p4 image4"
+                        "header6 image5 p5"
+                        "header7 p6 image6"
+                        "p7 p7 p7"
+                }
+            }
+        </style>
     </head>
 
     <body>
@@ -22,299 +99,286 @@
                 <a href="index.htm">
                     Home
                 </a>
-                <a href="general.htm" style="right: 10px; bottom: 5px;">
+                <a href="general.htm">
                     General Info
                 </a>
-                <a href="society.htm" style="right: 20px;">
+                <a href="society.htm">
                     Society
                 </a>
-                <a href="life.htm" style="right: 30px; bottom: 5px;" class="link-active">
+                <a href="life.htm" class="link-active">
                     Life
                 </a>
-                <a href="visiting.htm" style="right: 40px;">
+                <a href="visiting.htm">
                     Visiting
                 </a>
-                <a href="fun-fact.htm" style="right: 50px; bottom: 5px;">
+                <a href="fun-fact.htm">
                     Fun Facts
                 </a>
             </nav>
         </aside>
         <article>
-            <h1>
+            <h1 class="header">
                 Tokyo’s Customs and Lifestyle
             </h1>
-            <div>
-                <h2>
-                    Entertainment:
-                </h2>
-                <ul>
-                    <li>
-                        <strong>
-                            Sumo Wrestling:
-                        </strong>
-                        Tokyo hosts thrilling sumo tournaments at venues like Ryogoku Kokugikan. The ritualistic aspect
-                        and sheer force of two colossal wrestlers colliding make it an engrossing spectacle.
-                    </li>
-                    <li>
-                        <strong>
-                            Baseball and Soccer:
-                        </strong>
-                        These Western imports are wildly popular in Tokyo. Catching a game, where passionate fans
-                        provide as much entertainment as the players, is a must.
-                    </li>
-                    <li>
-                        <strong>
-                            Anime and Manga:
-                        </strong>
-                        Tokyo is the epicenter of anime and manga culture. Explore Akihabara for themed cafes, shops,
-                        and immersive experiences.
-                    </li>
-                    <li>
-                        <strong>
-                            Karaoke:
-                        </strong>
-                        Sing your heart out at karaoke bars. It’s a quintessential Tokyo nightlife activity.
-                    </li>
-                </ul>
-                <figure>
-                    <img src="tdc.jpg">
-                    <figcaption style="left: 10px; top: 171px;">
-                        Tokyo Nights: The Tokyo Dome, an architectural marvel, shines bright against the night sky,
-                        embodying the city’s vibrant energy.
-                    </figcaption>
-                </figure>
-            </div>
-            <div>
-                <figure>
-                    <img src="skateboarding.jpg" class="indent">
-                    <figcaption style="left: 10px; top: 171px;">
-                        Tokyo on Wheels: Capturing the spirit of Tokyo 2020 Olympics with a skateboarder in action,
-                        symbolizing the city’s dynamic energy and youthful vibe.
-                    </figcaption>
-                </figure>
-                <h2>
-                    Recreation and Sports:
-                </h2>
-                <ul>
-                    <li>
-                        <strong>
-                            Parks:
-                        </strong>
-                        Tokyo boasts beautiful parks like Ueno Park, Shinjuku Gyoen, and Yoyogi Park. They offer serene
-                        escapes amidst the bustling city.
-                    </li>
-                    <li>
-                        <strong>
-                            Cycling:
-                        </strong>
-                        Explore Tokyo’s neighborhoods on a bike. The city’s flat terrain and cycling-friendly
-                        infrastructure make it enjoyable.
-                    </li>
-                    <li>
-                        <strong>
-                            Traditional Martial Arts:
-                        </strong>
-                        Experience kendo (swordsmanship), judo, and aikido. These martial arts reflect Japan’s rich
-                        heritage.
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h2>
-                    Meals:
-                </h2>
-                <ul>
-                    <li>
-                        <strong>
-                            Sushi:
-                        </strong>
-                        Tokyo is the world capital of sushi. From cheap conveyor belt sushi to Michelin-starred
-                        establishments, indulge in this iconic Japanese dish. (right)
-                    </li>
-                    <li>
-                        <strong>
-                            Ramen:
-                        </strong>
-                        Slurp up delicious bowls of ramen at local joints. Each shop has its unique flavor profile.
-                    </li>
-                    <li>
-                        <strong>
-                            Tempura:
-                        </strong>
-                        Crispy, light tempura—seafood and vegetables dipped in batter and deep-fried—is a treat.
-                    </li>
-                    <li>
-                        <strong>
-                            Yakitori:
-                        </strong>
-                        Grilled skewers of chicken, vegetables, and other meats are popular street food.
-                    </li>
-                    <li>
-                        <strong>
-                            Japanese Curry:
-                        </strong>
-                        A comforting dish with thick, flavorful curry sauce served over rice.
-                    </li>
-                    <li>
-                        <strong>
-                            Sweets:
-                        </strong>
-                        Try wagashi (traditional Japanese sweets) and fruit parfaits.
-                    </li>
-                </ul>
-                <figure>
-                    <img src="sushi.jpg">
-                    <figcaption style="left: 10px; top: 171px;">
-                        Tokyo’s Culinary Canvas: A top-down view of a vibrant array of Japanese dishes, showcasing the
-                        rich culinary art and culture of Tokyo.
-                    </figcaption>
-                </figure>
-            </div>
-            <div>
-                <figure>
-                    <img src="life.jpg" class="indent">
-                    <figcaption style="left: 10px; top: 171px;">
-                        Tokyo’s Market Life: A vibrant and colorful street market, bustling with activity, showcasing
-                        the lively and cultural richness of Tokyo.
-                    </figcaption>
-                </figure>
-                <h2>
-                    How People Live:
-                </h2>
-                <ul>
-                    <li>
-                        <strong>
-                            Urban Lifestyle:
-                        </strong>
-                        Tokyo’s urban culture is transmitted throughout Japan via mass media concentrated in the city.
-                    </li>
-                    <li>
-                        <strong>
-                            Role Specialization:
-                        </strong>
-                        While traditional gender roles persist, more women work outside the home.
-                    </li>
-                    <li>
-                        <strong>
-                            Small Living Spaces:
-                        </strong>
-                        Due to limited space, entertaining is often done outside homes.
-                    </li>
-                    <li>
-                        <strong>
-                            Business-Oriented Entertainment:
-                        </strong>
-                        Tokyo’s diverse commercial landscape caters to business clientele.
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h2>
-                    National Dress:
-                </h2>
-                <ul>
-                    <li>
-                        The first ancestor of the kimono was born in the Heian period (794-1192). Straight cuts of
-                        fabric were sewn together to create a garment that fit every sort of body shape.
-                    </li>
-                    <li>
-                        By the Edo period (1603-1868), it had evolved into a unisex outer garment called kosode. During
-                        the Edo era, kosode was a visibly unifying cultural marker. Every Japanese person wore it,
-                        regardless of age, gender, or socio-economic position.
-                    </li>
-                    <li>
-                        It was only from the Meiji period (1868-1912) onwards that the garment was called kimono.
-                    </li>
-                    <li>
-                        The design of the kimono has remained unchanged for hundreds of years. Cut into eight pieces
-                        from a single length of cloth called a tanmono, the pieces are then folded and sewn together to
-                        form the kimono.
-                    </li>
-                    <li>
-                        The styles of women’s kimono can vary depending on age and marital status.
-                    </li>
-                </ul>
-                <figure>
-                    <img src="kimono.jpg" style=" width: 200px;">
-                    <figcaption style="left: 10px; top: 135px; width: 194px;">
-                        Elegance in Unison: A display of vibrant kimonos adorned with intricate designs, capturing the
-                        essence of traditional beauty in Tokyo.
-                    </figcaption>
-                </figure>
-            </div>
-            <div>
-                <figure>
-                    <img src="cbs.jpg" class="indent">
-                    <figcaption style="left: 10px; top: 171px;">
-                        Tokyo’s Night Market: A lively street market, illuminated by traditional lanterns, showcasing
-                        the vibrant and cultural richness of Tokyo.
-                    </figcaption>
-                </figure>
-                <h2>
-                    Holidays:
-                </h2>
-                <ul>
-                    <li>
-                        <strong>
-                            Cherry Blossom Festivals:
-                        </strong>
-                        Celebrated end of March to early April, it marks the blooming of cherry blossoms.
-                    </li>
-                    <li>
-                        <strong>
-                            Obon:
-                        </strong>
-                        A 3-day Buddhist festival in mid-August or July to honor ancestors.
-                    </li>
-                    <li>
-                        <strong>
-                            New Year’s Day (January 1):
-                        </strong>
-                        The start of the new year is a significant holiday in Japan, with many people visiting shrines
-                        and temples.
-                    </li>
-                    <li>
-                        <strong>
-                            Coming of Age Day (second Monday of January):
-                        </strong>
-                        This holiday celebrates young people who have reached the age of 20, the legal age of adulthood
-                        in Japan.
-                    </li>
-                    <li>
-                        <strong>
-                            National Foundation Day (February 11):
-                        </strong>
-                        This holiday celebrates the mythological foundation of Japan and the ascension of its first
-                        emperor.
-                    </li>
-                    <li>
-                        <strong>
-                            The Emperor’s Birthday (February 23):
-                        </strong>
-                        This holiday celebrates the birthday of the reigning emperor.
-                    </li>
-                    <li>
-                        <strong>
-                            Vernal Equinox (March 20):
-                        </strong>
-                        This holiday marks the arrival of spring.
-                    </li>
-                    <li>
-                        <strong>
-                            Golden Week (late April to early May):
-                        </strong>
-                        A cluster of national holidays in late April and early May.
-                    </li>
-                    <li>
-                        <strong>
-                            Sea Day (Third Monday of July):
-                        </strong>
-                        This holiday is to give thanks to the ocean’s bounty and consider the importance of the sea to
-                        Japan as an island nation.
-                    </li>
-                </ul>
-            </div>
-            <p>
+            <h2 class="header2">
+                Entertainment:
+            </h2>
+            <ul class="p">
+                <li>
+                    <strong>
+                        Sumo Wrestling:
+                    </strong>
+                    Tokyo hosts thrilling sumo tournaments at venues like Ryogoku Kokugikan. The ritualistic aspect and
+                    sheer force of two colossal wrestlers colliding make it an engrossing spectacle.
+                </li>
+                <li>
+                    <strong>
+                        Baseball and Soccer:
+                    </strong>
+                    These Western imports are wildly popular in Tokyo. Catching a game, where passionate fans provide as
+                    much entertainment as the players, is a must.
+                </li>
+                <li>
+                    <strong>
+                        Anime and Manga:
+                    </strong>
+                    Tokyo is the epicenter of anime and manga culture. Explore Akihabara for themed cafes, shops, and
+                    immersive experiences.
+                </li>
+                <li>
+                    <strong>
+                        Karaoke:
+                    </strong>
+                    Sing your heart out at karaoke bars. It’s a quintessential Tokyo nightlife activity.
+                </li>
+            </ul>
+            <figure class="image">
+                <img src="tdc.jpg">
+                <figcaption>
+                    Tokyo Nights: The Tokyo Dome, an architectural marvel, shines bright against the night sky,
+                    embodying the city’s vibrant energy.
+                </figcaption>
+            </figure>
+            <figure class="image2">
+                <img src="skateboarding.jpg">
+                <figcaption>
+                    Tokyo on Wheels: Capturing the spirit of Tokyo 2020 Olympics with a skateboarder in action,
+                    symbolizing the city’s dynamic energy and youthful vibe.
+                </figcaption>
+            </figure>
+            <h2 class="header3">
+                Recreation and Sports:
+            </h2>
+            <ul class="p2">
+                <li>
+                    <strong>
+                        Parks:
+                    </strong>
+                    Tokyo boasts beautiful parks like Ueno Park, Shinjuku Gyoen, and Yoyogi Park. They offer serene
+                    escapes amidst the bustling city.
+                </li>
+                <li>
+                    <strong>
+                        Cycling:
+                    </strong>
+                    Explore Tokyo’s neighborhoods on a bike. The city’s flat terrain and cycling-friendly infrastructure
+                    make it enjoyable.
+                </li>
+                <li>
+                    <strong>
+                        Traditional Martial Arts:
+                    </strong>
+                    Experience kendo (swordsmanship), judo, and aikido. These martial arts reflect Japan’s rich
+                    heritage.
+                </li>
+            </ul>
+            <h2 class="header4">
+                Meals:
+            </h2>
+            <ul class="p3">
+                <li>
+                    <strong>
+                        Sushi:
+                    </strong>
+                    Tokyo is the world capital of sushi. From cheap conveyor belt sushi to Michelin-starred
+                    establishments, indulge in this iconic Japanese dish. (right)
+                </li>
+                <li>
+                    <strong>
+                        Ramen:
+                    </strong>
+                    Slurp up delicious bowls of ramen at local joints. Each shop has its unique flavor profile.
+                </li>
+                <li>
+                    <strong>
+                        Tempura:
+                    </strong>
+                    Crispy, light tempura—seafood and vegetables dipped in batter and deep-fried—is a treat.
+                </li>
+                <li>
+                    <strong>
+                        Yakitori:
+                    </strong>
+                    Grilled skewers of chicken, vegetables, and other meats are popular street food.
+                </li>
+                <li>
+                    <strong>
+                        Japanese Curry:
+                    </strong>
+                    A comforting dish with thick, flavorful curry sauce served over rice.
+                </li>
+                <li>
+                    <strong>
+                        Sweets:
+                    </strong>
+                    Try wagashi (traditional Japanese sweets) and fruit parfaits.
+                </li>
+            </ul>
+            <figure class="image3">
+                <img src="sushi.jpg">
+                <figcaption>
+                    Tokyo’s Culinary Canvas: A top-down view of a vibrant array of Japanese dishes, showcasing the rich
+                    culinary art and culture of Tokyo.
+                </figcaption>
+            </figure>
+            <figure class="image4">
+                <img src="life.jpg">
+                <figcaption>
+                    Tokyo’s Market Life: A vibrant and colorful street market, bustling with activity, showcasing the
+                    lively and cultural richness of Tokyo.
+                </figcaption>
+            </figure>
+            <h2 class="header5">
+                How People Live:
+            </h2>
+            <ul class="p4">
+                <li>
+                    <strong>
+                        Urban Lifestyle:
+                    </strong>
+                    Tokyo’s urban culture is transmitted throughout Japan via mass media concentrated in the city.
+                </li>
+                <li>
+                    <strong>
+                        Role Specialization:
+                    </strong>
+                    While traditional gender roles persist, more women work outside the home.
+                </li>
+                <li>
+                    <strong>
+                        Small Living Spaces:
+                    </strong>
+                    Due to limited space, entertaining is often done outside homes.
+                </li>
+                <li>
+                    <strong>
+                        Business-Oriented Entertainment:
+                    </strong>
+                    Tokyo’s diverse commercial landscape caters to business clientele.
+                </li>
+            </ul>
+            <h2 class="header6">
+                National Dress:
+            </h2>
+            <ul class="p5">
+                <li>
+                    The first ancestor of the kimono was born in the Heian period (794-1192). Straight cuts of fabric
+                    were sewn together to create a garment that fit every sort of body shape.
+                </li>
+                <li>
+                    By the Edo period (1603-1868), it had evolved into a unisex outer garment called kosode. During the
+                    Edo era, kosode was a visibly unifying cultural marker. Every Japanese person wore it, regardless of
+                    age, gender, or socio-economic position.
+                </li>
+                <li>
+                    It was only from the Meiji period (1868-1912) onwards that the garment was called kimono.
+                </li>
+                <li>
+                    The design of the kimono has remained unchanged for hundreds of years. Cut into eight pieces from a
+                    single length of cloth called a tanmono, the pieces are then folded and sewn together to form the
+                    kimono.
+                </li>
+                <li>
+                    The styles of women’s kimono can vary depending on age and marital status.
+                </li>
+            </ul>
+            <figure class="image5">
+                <img src="kimono.jpg">
+                <figcaption>
+                    Elegance in Unison: A display of vibrant kimonos adorned with intricate designs, capturing the
+                    essence of traditional beauty in Tokyo.
+                </figcaption>
+            </figure>
+            <figure class="image6">
+                <img src="cbs.jpg">
+                <figcaption>
+                    Tokyo’s Night Market: A lively street market, illuminated by traditional lanterns, showcasing the
+                    vibrant and cultural richness of Tokyo.
+                </figcaption>
+            </figure>
+            <h2 class="header7">
+                Holidays:
+            </h2>
+            <ul class="p6">
+                <li>
+                    <strong>
+                        Cherry Blossom Festivals:
+                    </strong>
+                    Celebrated end of March to early April, it marks the blooming of cherry blossoms.
+                </li>
+                <li>
+                    <strong>
+                        Obon:
+                    </strong>
+                    A 3-day Buddhist festival in mid-August or July to honor ancestors.
+                </li>
+                <li>
+                    <strong>
+                        New Year’s Day (January 1):
+                    </strong>
+                    The start of the new year is a significant holiday in Japan, with many people visiting shrines and
+                    temples.
+                </li>
+                <li>
+                    <strong>
+                        Coming of Age Day (second Monday of January):
+                    </strong>
+                    This holiday celebrates young people who have reached the age of 20, the legal age of adulthood in
+                    Japan.
+                </li>
+                <li>
+                    <strong>
+                        National Foundation Day (February 11):
+                    </strong>
+                    This holiday celebrates the mythological foundation of Japan and the ascension of its first emperor.
+                </li>
+                <li>
+                    <strong>
+                        The Emperor’s Birthday (February 23):
+                    </strong>
+                    This holiday celebrates the birthday of the reigning emperor.
+                </li>
+                <li>
+                    <strong>
+                        Vernal Equinox (March 20):
+                    </strong>
+                    This holiday marks the arrival of spring.
+                </li>
+                <li>
+                    <strong>
+                        Golden Week (late April to early May):
+                    </strong>
+                    A cluster of national holidays in late April and early May.
+                </li>
+                <li>
+                    <strong>
+                        Sea Day (Third Monday of July):
+                    </strong>
+                    This holiday is to give thanks to the ocean’s bounty and consider the importance of the sea to Japan
+                    as an island nation.
+                </li>
+            </ul>
+            <p class="p7">
                 In Tokyo, tradition and modernity coexist harmoniously, creating a captivating lifestyle that reflects
                 Japan’s rich heritage and dynamic present. Whether you’re savoring sushi, exploring parks, or immersing
                 yourself in anime culture, Tokyo promises unforgettable experiences.

@@ -6,6 +6,73 @@
         <title>Marquize Allen</title>
         <link rel="stylesheet" href="project1style.css">
         <script src="project1.js" defer></script>
+        <style>
+            @media (max-width: 600px) {
+                article {
+                    grid-template-columns: 1fr;
+                    grid-template-areas:
+                        "header"
+                        "image"
+                        "p"
+                        "p2"
+                        "p3"
+                        "p4"
+                        "p5"
+                        "p6"
+                        "p7"
+                        "p8";
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+
+            @media (min-width: 600px) and (max-width: 899px) {
+                article {
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas: "header header"
+                        "image p"
+                        "p2 p2"
+                        "p3 p3"
+                        "p4 p4"
+                        "p5 p5"
+                        "p6 p6"
+                        "p7 p7"
+                        "p8 p8";
+                }
+            }
+
+            @media (min-width: 900px) and (max-width: 1025px) {
+                article {
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas: "header header"
+                        "image p"
+                        "image p2"
+                        "image p3"
+                        "p4 p4"
+                        "p5 p5"
+                        "p6 p6"
+                        "p7 p7"
+                        "p8 p8";
+                }
+            }
+
+            @media (min-width:1026px) {
+                article {
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-areas: "header header"
+                        "image p"
+                        "image p2"
+                        "image p3"
+                        "image p4"
+                        "p5 p5"
+                        "p6 p6"
+                        "p7 p7"
+                        "p8 p8";
+                }
+            }
+        </style>
     </head>
 
     <body>
@@ -22,72 +89,73 @@
                 <a href="index.htm" class="link-active">
                     Home
                 </a>
-                <a href="general.htm" style="right: 10px; bottom: 5px;">
+                <a href="general.htm">
                     General Info
                 </a>
-                <a href="society.htm" style="right: 20px;">
+                <a href="society.htm">
                     Society
                 </a>
-                <a href="life.htm" style="right: 30px; bottom: 5px;">
+                <a href="life.htm">
                     Life
                 </a>
-                <a href="visiting.htm" style="right: 40px;">
+                <a href="visiting.htm">
                     Visiting
                 </a>
-                <a href="fun-fact.htm" style="right: 50px; bottom: 5px;">
+                <a href="fun-fact.htm">
                     Fun Facts
                 </a>
             </nav>
         </aside>
         <article>
-            <h1>
+            <h1 class="header">
                 Discover Tokyo: A Metropolis of Wonders
             </h1>
-            <figure>
-                <img src="tokyo.jpg" style="float: left;">
-                <figcaption style="left: 10px; top: 190px;">
+            <figure class="image">
+                <img src="tokyo.jpg">
+                <figcaption>
                     Embracing serenity at the golden hour, where tradition meets tranquility at the majestic temple.
                 </figcaption>
             </figure>
-            <p>
+            <p class="p">
                 Tokyo, a city that never truly sleeps, where ancient traditions seamlessly blend with futuristic
                 innovations, invites you to experience its vibrant culture, unparalleled technology, and breathtaking
                 urban landscapes. This sprawling metropolis, home to over 38 million people, is a tapestry of sights,
                 sounds, and flavors that beckons travelers from all corners of the globe.
             </p>
-            <p>
+
+            <p class="p2">
                 As you step into the bustling streets of Tokyo, you’ll be greeted by the harmonious chaos of neon
                 lights, towering skyscrapers, and the warm smiles of locals. Each neighborhood in Tokyo offers a
                 distinct flavor; from the fashion-forward streets of Shibuya to the historic alleys of Asakusa, there’s
                 a surprise waiting around every corner.
             </p>
-            <p>
+            <p class="p3">
                 Indulge in the culinary delights that Tokyo is famed for, from Michelin-starred restaurants serving
                 exquisite sushi to street vendors offering savory takoyaki. Food isn’t just nourishment here; it’s an
                 art form, a cultural experience that will tantalize your taste buds and leave you craving more.
             </p>
-            <p>
+            <p class="p4">
                 Embrace the rich heritage of Japan as you visit ancient temples and shrines, standing in stark contrast
                 to the city’s modern architecture. The serene atmosphere of these sacred sites provides a peaceful
                 retreat from the urban rush, allowing moments of reflection amidst the city’s dynamic energy.
             </p>
-            <p>
+            <p class="p5">
                 For the shopaholics, Tokyo is a paradise. Dive into the latest trends at the city’s numerous shopping
                 districts or hunt for unique treasures in the quaint boutiques and local markets. Whether you’re looking
                 for high fashion or traditional crafts, Tokyo’s shops have it all.
             </p>
-            <p>
+            <p class="p6">
                 As night falls, the city transforms into an entertainment hub, with lively bars, clubs, and karaoke
                 rooms offering endless fun. The city’s nightlife is as diverse as its daytime attractions, ensuring that
                 every moment in Tokyo is filled with excitement and discovery.
             </p>
-            <p>
+            <p class="p7">
                 Tokyo is not just a destination; it’s an experience, a journey through a world where the past and future
                 coexist in perfect harmony. It’s a city that must be felt, heard, and seen to be believed. So pack your
                 bags, set your sights on Tokyo, and prepare for an adventure that will redefine what you know about
                 travel.
             </p>
-            <p>
+            <p class="p8">
                 Come, witness the wonder that is Tokyo – a city that promises an unforgettable journey through the heart
                 of Japan.
             </p>
